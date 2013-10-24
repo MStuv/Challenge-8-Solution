@@ -21,6 +21,7 @@
 		C1C1F24E1818A985004F13F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C1F2301818A985004F13F5 /* UIKit.framework */; };
 		C1C1F2561818A985004F13F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1C1F2541818A985004F13F5 /* InfoPlist.strings */; };
 		C1C1F2581818A985004F13F5 /* UIScrollView_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C1F2571818A985004F13F5 /* UIScrollView_Challenge_SolutionTests.m */; };
+		C1C1F2621818ADA6004F13F5 /* worldMap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C1C1F2611818ADA6004F13F5 /* worldMap.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		C1C1F2531818A985004F13F5 /* UIScrollView Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIScrollView Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		C1C1F2551818A985004F13F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C1C1F2571818A985004F13F5 /* UIScrollView_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIScrollView_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		C1C1F2611818ADA6004F13F5 /* worldMap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = worldMap.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		C1C1F2331818A985004F13F5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C1C1F2631818ADAE004F13F5 /* Images */,
 				C1C1F2341818A985004F13F5 /* UIScrollView Challenge Solution-Info.plist */,
 				C1C1F2351818A985004F13F5 /* InfoPlist.strings */,
 				C1C1F2381818A985004F13F5 /* main.m */,
@@ -150,6 +153,14 @@
 				C1C1F2541818A985004F13F5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1C1F2631818ADAE004F13F5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C1C1F2611818ADA6004F13F5 /* worldMap.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1C1F2451818A985004F13F5 /* Images.xcassets in Resources */,
+				C1C1F2621818ADA6004F13F5 /* worldMap.jpg in Resources */,
 				C1C1F2371818A985004F13F5 /* InfoPlist.strings in Resources */,
 				C1C1F2401818A985004F13F5 /* Main.storyboard in Resources */,
 			);

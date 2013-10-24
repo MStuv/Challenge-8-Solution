@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MASViewController : UIViewController
+/// Conform to the UIScrollViewDelegate for zooming
+@interface MASViewController : UIViewController <UIScrollViewDelegate>
+
+@property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
+
+@property (strong, nonatomic) UIImageView *globalImageView;
 
 @end
